@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <link rel="stylesheet" href="homeStyle.css">
+</head>
+<body class="bodyStyle">
+    <div>
+            <nav class="NavBar">
+                <div>
+                    <div class="logo_Comp_name">
+                        <img src="logoimg.jpg" alt="logo png">
+                        <h1>Work Space</h1>
+                    </div>
+                    <!--Home-->
+                    <div>
+                        <a href="home.html"> <img src="home.png" alt="homepng"> <b>Home</b></a>
+                    </div>
+                    <!-- Customers -->
+                    <div>
+                        <a href="#customers"><img src="user.png" alt="Customers"> <b>Customers</b></a>
+                    </div>
+                    <!-- Departments -->
+                    <div class="Properties">
+                        <a href="#departments"><img src="department.png" alt="department"> <b>Departments</b></a>
+                    </div>
+                    <!-- Media -->
+                    <div class="Properties">
+                        <a href="#media"><img src="gallery.png" alt="media"><b>Media</b></a>
+                    </div>
+                </div>
+                <!-- my account tag -->
+                <div class="myAccount">
+                    <a href="#myAccount"><img src="user1.png" alt="account"> <b>My Account</b></a>
+                 </div>
+            </nav>
+    </div>
+    
+    
+
+    <!-- search bar division -->
+     <div class="searchBarDiv">
+        <div class="searchBarDivDiv">
+            <input type="search" name="search" id="search" placeholder="Search in Home">
+            <button><img src="search1.jpg" height="40px" width="90px" alt="search"></button>
+        </div><br>
+     </div>
+     
+     <div>
+        <div class="boxofhome" >
+            <p >new Customer<br>24</span></p>
+        </div>
+    </div>
+    <div>
+    <section id="customers">
+        <h2>Customers</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Customer ID</th>
+              <th>Department ID</th>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Total Media Size</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Dynamically generated table rows -->
+          </tbody>
+        </table>
+      </section>
+    </div>
+            
+    
+</body>
+</html>

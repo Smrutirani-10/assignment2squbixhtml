@@ -1,0 +1,73 @@
+.bodyStyle{
+    display: flex;
+    margin: 0;
+}
+.NavBar{
+    height: 100%;
+    width: 240px;
+    background-color: rgb(119, 73, 205);
+}
+
+.NavBar a{
+    color: rgb(15, 5, 62);
+    border: 2px solid black ;
+    padding: 12px; 
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 2px;
+    font-size: 20px ;
+    /* overflow: hidden; */
+}
+.NavBar a:hover{
+    background-color: rgb(56, 24, 121);
+    color: aliceblue;
+}
+.NavBar a img{
+    width: 17px;
+}  
+.logo_Comp_name{
+    display: flex;
+}
+.logo_Comp_name img{
+   margin-top: 5px;
+   height: 60px;
+   border-radius: 100px;
+}
+.myAccount{
+    margin-top: 56vh;
+}
+.searchBarDiv{
+    display: flex;
+    background-color:rgb(77, 37, 125) ;
+    width: 100%;
+    height: 100px;
+    justify-content: right;
+    align-items: center;
+    margin-left: calc(100%-200px);
+}
+.searchBarDivDiv{
+    display: flex;
+    border: 4px solid rgb(39, 19, 45);
+    margin-right: 15px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.searchBarDivDiv input{
+    height: 40px;
+    width: 350px;
+}
+.searchBarDivDiv button{
+    margin-left: 0;
+    height: 35px;
+}
+.searchBarDivDiv button img{
+    width: 40px;
+    margin: 0px;
+}
+.searchBarDivDiv button:hover{
+    background-color: black;
+    color: white;
+}
+
