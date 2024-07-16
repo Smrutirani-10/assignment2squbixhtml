@@ -1,0 +1,156 @@
+.body_Style{
+    display: flex;
+    margin: 0;
+    background-image:url(form.png)
+}
+.NavBar{
+    background-color: rgb(99, 43, 231);
+    height: 100%;
+    width: 200px;
+    position: fixed;
+}
+.NavBar a{
+    color: black;
+    border: 2px solid black ;
+    padding: 10px;
+    margin-top: 1px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 4px;
+    font-size: 25px ;
+    /* overflow: hidden; */
+}
+/*.cname{
+    font-size: 990px;
+    font-style: oblique;
+    color:navy;
+}*/
+.NavBar a:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.NavBar a img{
+    width: 17px;
+}  
+.logo_Company{
+    display: flex;
+}
+.logo_Company img{
+    margin-top: 5px;
+   height: 50px;
+   border-radius: 50px;
+}
+.myAccount{
+    margin-top: 55vh;
+    margin-bottom: 10px;
+
+}
+.Search_BarAndInfo{
+    width: 100%;
+    /* margin-left: calc(100%-200px); */
+}
+.search_Bar_Div{
+    position: fixed;
+    display: flex;
+    background-color:rgb(99, 43, 231); ;
+    width: 87vw;
+    height: 85px;
+    justify-content: right;
+    align-items: center;
+    margin-left: 200px;
+
+}
+.search_Bar_Div_Div{
+    display: flex;
+    border: 2px solid black;
+    margin-right: 23px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.search_Bar_Div_Div input{
+    height: 35px;
+    width: 350px;
+}
+.search_Bar_Div_Div button{
+    margin-left: 0;
+    height: 35px;
+}
+.search_Bar_Div_Div button img{
+    width: 27px;
+    height: 35px;;
+}
+.search_Bar_Div_Div button:hover{
+    background-color: rgb(43, 7, 161);
+    color: white;
+    height: 35px;
+}
+.Image_Form{
+    margin-left: 260px;
+    margin-top: 150px;
+}
+.Image_profile{
+    display: flex;
+    align-items: baseline;
+   /* height: 80px;*/
+}
+.Image_profile img{
+    border: 5px solid;
+    width: 200px;
+    border-radius: 25px;
+}
+.ImageAdd a{
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 10px;
+    width: 20px;
+    text-decoration: none;
+    color: black;
+}
+.Details_Form{
+    margin-left: 260px;
+    margin-top: 55px;
+}
+.Form_Div{
+    margin-top: 10px;
+    padding: 15px;
+    width: 100px;
+}
+.Form_Div input{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.Form_Div a{
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+    
+}
+.Form_Div a:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.buttonAlign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin-top: 10px;
+}
+.buttonAlign input{
+    margin-left: 50px;
+    width: 60px;
+    height: 25px;
+    border-radius: 5px;
+}
+#save{
+    background-color: green;
+
+}
+#cancel{
+    background-color: red;
+}

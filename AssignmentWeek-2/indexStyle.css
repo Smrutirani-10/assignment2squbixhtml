@@ -1,73 +1,178 @@
-.bodyStyle{
+.body_Style{
     display: flex;
     margin: 0;
+    background-image:url(form.png)
 }
 .NavBar{
+    background-color: rgb(99, 43, 231);
     height: 100%;
-    width: 240px;
-    background-color: rgb(119, 73, 205);
+    width: 200px;
+    position: fixed;
 }
-
 .NavBar a{
-    color: rgb(15, 5, 62);
+    color: black;
     border: 2px solid black ;
-    padding: 12px; 
-    border-radius: 15px;
+    padding: 10px;
+    margin-top: 1px;
+    border-radius: 20px;
     text-align: center;
     text-decoration: none;
     display: block;
-    margin-bottom: 2px;
-    font-size: 20px ;
+    margin-bottom: 4px;
+    font-size: 25px ;
     /* overflow: hidden; */
 }
+/*.cname{
+    font-size: 990px;
+    font-style: oblique;
+    color:navy;
+}*/
 .NavBar a:hover{
-    background-color: rgb(56, 24, 121);
+    background-color: black;
     color: aliceblue;
 }
 .NavBar a img{
     width: 17px;
 }  
-.logo_Comp_name{
+.logo_Company{
     display: flex;
 }
-.logo_Comp_name img{
-   margin-top: 5px;
-   height: 60px;
-   border-radius: 100px;
+.logo_Company img{
+    margin-top: 5px;
+   height: 50px;
+   border-radius: 50px;
 }
 .myAccount{
-    margin-top: 56vh;
+    margin-top: 55vh;
+    margin-bottom: 10px;
+
 }
-.searchBarDiv{
-    display: flex;
-    background-color:rgb(77, 37, 125) ;
+.Search_BarAndInfo{
     width: 100%;
-    height: 100px;
+    /* margin-left: calc(100%-200px); */
+}
+.search_Bar_Div{
+    position: fixed;
+    display: flex;
+    background-color:rgb(99, 43, 231); ;
+    width: 87vw;
+    height: 85px;
     justify-content: right;
     align-items: center;
-    margin-left: calc(100%-200px);
+    margin-left: 200px;
+
 }
-.searchBarDivDiv{
+.search_Bar_Div_Div{
     display: flex;
-    border: 4px solid rgb(39, 19, 45);
-    margin-right: 15px;
-    border-radius: 20px;
+    border: 2px solid black;
+    margin-right: 23px;
+    border-radius: 25px;
     overflow: hidden;
 }
-.searchBarDivDiv input{
-    height: 40px;
+.search_Bar_Div_Div input{
+    height: 35px;
     width: 350px;
 }
-.searchBarDivDiv button{
+.search_Bar_Div_Div button{
     margin-left: 0;
     height: 35px;
 }
-.searchBarDivDiv button img{
-    width: 40px;
-    margin: 0px;
+.search_Bar_Div_Div button img{
+    width: 27px;
+    height: 35px;;
 }
-.searchBarDivDiv button:hover{
-    background-color: black;
+.search_Bar_Div_Div button:hover{
+    background-color: rgb(43, 7, 161);
     color: white;
+    height: 35px;
 }
-
+.Home_Info{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 70px;
+    margin-left: 200px;
+    margin-bottom: 0px;
+}
+.div_New{
+    background-color: rgb(51, 77, 151);
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.div_Dept{
+    background-color: rgb(51, 77, 151);
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 50px; 
+}
+.div_Media{
+    background-color: rgb(51, 77, 151);
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+.table_Div{
+    background-color: rgb(77, 131, 240);
+    margin-left: 210px;
+    margin-top: 20px;
+    border: 1px solid;
+    border-radius: 10px 10px 0px 0px;
+}
+.table_Div h1{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+table{
+    width: 100%;
+    height: 100%;
+    empty-cells: show;
+}
+th{
+    height: 70px;
+}
+td{
+    text-align: center;
+    height: 47px;
+}
+table,th,td{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+tr:hover{
+    background-color: rgb(176, 26, 136);
+    color: black;
+}
+.mediaDiv{
+    background-color: rgb(133, 24, 155);
+    margin-left: 210px;
+    margin-top: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+.mediaDiv h1{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.mediaContent{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+}
+.div_File{
+    background-color:rgb(51, 77, 151);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+/* tr:nth-child(even){
+    background-color: indianred;
+} */

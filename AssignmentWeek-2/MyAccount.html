@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="MyAccount.css">
+</head>
+<body class="body_Style">
+    <div>
+        <nav class="NavBar">
+            <div>
+                <div class="logo_Company">
+                    <img src="image-1.png.jpg" alt="logo png">
+                    <h1>WorkSpace</h1>
+                </div>
+                <!--Home-->
+                <div>
+                    <a href="index.html"> <i class="fa fa-home"></i> 
+                    <b>Home</b></a>
+                </div>
+                <!-- Customers -->
+                <div>
+                    <a href="Customers.html"><i class="fas fa-user-friends"></i><b>Customers</b></a>
+                </div>
+                <!-- Departments -->
+                <div>
+                    <a href="Departments.html">
+                        <i class="far fa-address-card"></i>
+                        <b>Departments</b></a>
+                </div>
+                <!-- Media -->
+                <div>
+                    <a href="Media.html"><i class="fas fa-images"></i><b>Media</b></a>
+                </div>
+            </div>
+            <!-- my account  portion tag -->
+            <div class="myAccount activeProperty">
+                <a href="MyAccount.html"><i class="fas fa-user-alt"></i> <b>My Account</b></a>
+             </div>
+        </nav>
+    </div>
+
+    <div class="Search_BarAndInfo">
+        <!-- search bar division -->
+        <div class="search_Bar_Div">
+            <div class="search_Bar_Div_Div">
+                <input type="search" name="search" id="search" placeholder="search in Home">
+                <button><img src="search1.jpg" alt="search"></button>
+            </div>    
+        </div>
+        <div class="Image_Form">
+            <div class="Image_profile">
+                <img src="smile-4.jpg" alt="" name="pic" id="pic">
+                <input 
+                    type="file"
+                    id="inputType"
+                    multiple="false"
+                    accept="image/*"
+                    style="display: none"
+
+                /><a href="#Edit" class="fa fa-pencil"></a>
+            </div>
+        </div>
+        <div class="Details_Form">
+            <div class="Form_Div">
+                <label for=""><b>Name</b></label><br>
+                <input type="text" name="text" id="text" value="Smrutirani Das">
+                <a href="#Edit" class="fa fa-pencil" onclick="edictName()"></a>
+            </div>
+            <div class="Form_Div">
+                <label for="Email"><b>Email</b></label><br>
+                <input type="email" name="email" id="email" value="dassmrutirani10@gmail.com">
+                <a href="#Edit" class="fa fa-pencil" onclick="editEmail()"></a>
+            </div>
+            <div class="Form_Div">
+                <label for="phone"><b>Phone Number</b></label><br>
+                <input type="tel" name="phone" id="phone" value="9876543210" pattern="[6-9]+[0-9] {9}">
+                <a href="#Edit" class="fa fa-pencil" onclick="editPhone()"></a>
+            </div>
+            <div class="Form_Div">
+                <label for="dob"><b>Date Of Birth</b></label><br>
+                <input type="date" name="dob" id="dob" value="10/12/2001">
+                <a href="#Edit" class="fa fa-pencil" onclick="editDob()"></a>
+            </div>
+            <div class="buttonAlign">
+                <input type="button" name="save" id="save" value="Save" onclick="SaveValue()">
+                <input type="button" name="cancel" id="cancel" value="cancel" onclick="CancelValue()">
+            </div>
+        </div>
+    </div>
+        
+    <script src="MyAccount.js"></script>
+
+</body>
+</html>
